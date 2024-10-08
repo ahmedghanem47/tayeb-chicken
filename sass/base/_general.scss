@@ -1,0 +1,22 @@
+body {
+    font-size: $font-16;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.margin-bottom-xxl {
+    margin-bottom: 15rem;
+}
+
+//responsive 
+.margin-bottom-xxl {
+    @include tablet-screen {
+        margin-bottom: 8rem;
+    }
+}
