@@ -1035,9 +1035,6 @@ footer span {
 }
 
 @media screen and (min-width: 320px) and (max-width: 1200px) {
-  .navbar-nav {
-    margin-top: 72px !important;
-  }
 
   .navbar-toggler[aria-expanded=true] .close-img {
     display: inline-block;
@@ -1076,6 +1073,10 @@ footer span {
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 72px !important;
+  }
+
   .navbar-icons {
     display: flex;
     margin-top: 80px;
@@ -1130,6 +1131,35 @@ footer span {
 
 .wrapper {
   overflow-x: hidden;
+}
+
+@media screen and (min-width:1800px) {
+  .farm-text p {
+    max-width: 85%;
+  }
+
+  .hero {
+    margin-bottom: 19%;
+  }
+
+  .hero .translate-middle {
+    transform: translate(-50%, -38%) !important;
+  }
+
+  .farm-section {
+    padding: 0 15rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+
+  }
+
+  .way-section {
+    margin-top: 8%;
+
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
