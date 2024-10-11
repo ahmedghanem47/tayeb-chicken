@@ -519,9 +519,6 @@ footer span {
 }
 
 @media (min-width: 768px) {
-  .farm-text button {
-    width: 100% !important;
-  }
   .space-after-lg {
     display: block;
   }
