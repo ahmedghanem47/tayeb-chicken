@@ -458,6 +458,9 @@ footer span {
 
 @media (min-width: 768px) {
 
+    .farm-text button {
+        width: 100% !important;
+    }
 
     .space-after-lg {
         display: block;
@@ -960,9 +963,28 @@ footer span {
 }
 
 @media screen and (min-width:320px) and (max-width:1200px) {
+    .tayeb-difference p {
+        padding-bottom: 64px;
+
+    }
+
+    .nationwide {
+        margin-top: 200px;
+
+    }
+
+    .partner-btn button {
+        margin-bottom: 64px;
+    }
 
     .navbar-nav {
         margin-top: 72px !important;
+    }
+
+    .tayeb-container {
+        .navbar-nav {
+            margin-top: 0 !important;
+        }
     }
 
     .navbar-toggler[aria-expanded="true"] {
@@ -1009,6 +1031,11 @@ footer span {
 }
 
 @media screen and (min-width:320px) and (max-width: 991px) {
+    .navbar-container .navbar-collapse {
+        justify-content: end;
+        margin-top: 64px;
+    }
+
     .navbar-icons {
         display: flex;
         margin-top: 80px;
@@ -1021,6 +1048,61 @@ footer span {
 }
 
 @media (max-width: 768px) {
+    .partner-btn button {
+        font-family: "NunitoMeduim", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 19.1px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        width: 353px;
+        height: 68px;
+        gap: 0px;
+        opacity: 0px;
+        margin-bottom: 57px;
+    }
+
+    .nationwide {
+        margin-top: 64px;
+        height: auto;
+    }
+
+    .tayeb-difference p {
+        font-family: "NunitoMeduim", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        margin: auto;
+        padding-bottom: 64px;
+    }
+
+    .image-container {
+        padding: 20px 0 !important;
+
+        img {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .cutting img {
+        width: 300px !important;
+        height: 375px !important;
+    }
+
+    .partner-btn {
+        button {
+            width: 100% !important;
+
+        }
+    }
+
+    .farm-text button {
+        width: 100% !important;
+
+    }
+
     .navbar-container {
         padding: 0 20px !important;
     }
@@ -1059,4 +1141,18 @@ footer span {
     .tayeb-container {
         padding: 0;
     }
+}
+
+@media screen and (max-width: 325px) {
+    .farm-section .farm-text h2 {
+        text-wrap: wrap;
+
+    }
+
+    .tayeb-way p {
+        text-wrap: wrap;
+        width: fit-content !important;
+    }
+
+
 }

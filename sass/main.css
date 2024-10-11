@@ -10,52 +10,44 @@
 /** Fonts **/
 @font-face {
   font-family: "NunitoLight";
-  src: url("../fonts/Nunito-Light.ttf") format("truetype");
+  src: url("../../fonts/Nunito-Light.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "NunitoRegular";
-  src: url("../fonts/Nunito-Regular.ttf") format("truetype");
+  src: url("../../fonts/Nunito-Regular.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "NunitoMeduim";
-  src: url("../fonts/Nunito-Medium.ttf") format("truetype");
+  src: url("../../fonts/Nunito-Medium.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "NunitoSemiBold";
-  src: url("../fonts/Nunito-SemiBold.ttf") format("truetype");
+  src: url("../../fonts/Nunito-SemiBold.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "NanitoBold";
-  src: url("../fonts/Nunito-Bold.ttf") format("truetype");
+  src: url("../../fonts/Nunito-Bold.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "RedditSansCondensedLight";
-  src: url("../fonts/RedditSansCondensed-Light.ttf") format("truetype");
+  src: url("../../fonts/RedditSansCondensed-Light.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "RedditSansCondensedBold";
-  src: url("../fonts/RedditSansCondensed-Bold.ttf") format("truetype");
+  src: url("../../fonts/RedditSansCondensed-Bold.ttf") format("truetype");
   font-display: swap;
 }
-
 @font-face {
   font-family: "RedditSansCondensedmeduim";
-  src: url("../fonts/RedditSansCondensed-Medium.ttf") format("truetype");
+  src: url("../../fonts/RedditSansCondensed-Medium.ttf") format("truetype");
   font-display: swap;
 }
-
 /* Project Fonts */
 /** Font Size **/
 body {
@@ -114,7 +106,6 @@ header {
   width: 100%;
   gap: 0;
 }
-
 .navbar-container .navbar-collapse {
   justify-content: end;
 }
@@ -130,7 +121,6 @@ header {
   padding: 0;
   gap: 2rem;
 }
-
 .navbar-nav .nav-link {
   padding: 0 !important;
 }
@@ -292,7 +282,6 @@ header a {
   margin-top: 144px;
   padding: 0 154px;
 }
-
 .tayeb-difference .tayeb-flex {
   display: flex;
   gap: 2rem;
@@ -440,7 +429,6 @@ footer {
   padding: 72px 155px 45px 155px;
   gap: 45px;
 }
-
 @media screen and (max-width: 991px) {
   footer {
     padding: 72px 47px 45px 47px;
@@ -454,28 +442,23 @@ footer {
   display: flex;
   gap: 4rem;
 }
-
 @media screen and (max-width: 1200px) {
   .farm-section {
     padding: 0 20px;
     flex-direction: column;
     gap: 0;
   }
-
   .farm-section .farm-img {
     text-align: center;
   }
-
   .farm-section .farm-text h2 {
     margin-top: 32px !important;
     text-align: start !important;
   }
-
   .farm-section .farm-text p {
     text-align: start !important;
   }
 }
-
 .farm-section .farm-img {
   margin: 0 !important;
 }
@@ -519,16 +502,13 @@ footer span {
   justify-content: space-between;
   width: 100%;
 }
-
 @media screen and (max-width: 991px) {
   .footer-list {
     flex-direction: column;
   }
-
   .footer-list p {
     text-align: center;
   }
-
   .footer-list .social {
     margin-bottom: 64px;
   }
@@ -539,131 +519,108 @@ footer span {
 }
 
 @media (min-width: 768px) {
+  .farm-text button {
+    width: 100% !important;
+  }
   .space-after-lg {
     display: block;
   }
-
   .small-space {
     display: none;
   }
-
   .navbar-icons {
     display: none;
   }
 }
-
 @media (min-width: 676px) and (max-width: 768px) {
   header {
     display: block;
     padding-inline: 20px !important;
     height: auto;
   }
-
   .logo-container {
     padding-right: 20px;
   }
-
   .navbar-expand-lg {
     flex-wrap: wrap !important;
   }
-
   .farm-img {
     margin-left: -70px;
     margin-right: 180px;
   }
-
   .farm-text h2 {
     margin-top: 0px;
     white-space: normal;
   }
-
   .farm-text p {
     margin-top: 0px;
   }
-
   .farm-text button {
     width: 256px;
     height: 48px;
   }
-
   .halal {
     width: 70%;
     right: 20px;
     top: -40px;
   }
-
   .tayeb-way p {
     margin-left: -80px;
     width: 500px !important;
   }
-
   .tayeb-way h4 {
     margin-left: -80px;
   }
-
   .tayeb-difference p {
     width: 100%;
     text-align: left;
   }
-
   .tayeb-difference h4 {
     white-space: normal;
   }
-
   .cutting img {
     width: 610px !important;
     height: 375px !important;
   }
-
   .partners img {
     width: 30% !important;
   }
-
   .map {
     display: none !important;
   }
-
   .image-container img {
     margin: 10px 0;
     width: calc(33% - 10px);
     display: none !important;
   }
-
   .image-container img:nth-child(3),
   .image-container img:nth-child(2),
   .image-container img:nth-child(4) {
     display: block !important;
   }
-
   footer p {
     white-space: nowrap;
   }
-
   .social {
     white-space: nowrap;
   }
-
   .nav-item {
     margin: 10px 0;
     width: 100%;
     text-align: center;
   }
 }
-
 @media (max-width: 576px) {
-
   html,
   body {
     overflow-x: hidden;
   }
-
   header {
     height: auto;
     z-index: 10 !important;
     padding-inline: 10px !important;
     display: block;
   }
-
   header a {
     font-family: Reddit Sans Condensed !important;
     font-size: 28px !important;
@@ -671,37 +628,30 @@ footer span {
     line-height: 36.37px !important;
     text-align: center !important;
   }
-
   .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
-
   .nav-item {
     margin: 10px 0;
     width: 100%;
     text-align: center;
   }
-
   .logo-container {
     padding-right: 10px;
   }
-
   .navbar-container img {
     height: auto;
   }
-
   .navbar-icons {
     display: flex;
     margin-top: 80px;
     margin-bottom: 200px;
     gap: 30px;
   }
-
   .navbar-icons img {
     max-width: 30px;
   }
-
   .hero {
     background: url("../images/hero-mobile.svg") center top;
     background-size: cover;
@@ -709,17 +659,14 @@ footer span {
     color: white;
     margin-bottom: 20%;
   }
-
   .hero h1 {
     font-size: 36px !important;
     line-height: 40px !important;
   }
-
   .product-image {
     width: 100%;
     margin-top: -6%;
   }
-
   .farm-img {
     display: flex;
     justify-content: center;
@@ -727,19 +674,16 @@ footer span {
     margin-top: -10% !important;
     margin-right: 64px;
   }
-
   .farm-image {
     width: 80%;
     height: 80%;
   }
-
   .farm-text h2 {
     font-size: 24px !important;
     line-height: 32.74px !important;
     text-align: center;
     margin-top: -19%;
   }
-
   .farm-text p {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 16px !important;
@@ -749,7 +693,6 @@ footer span {
     color: #26403e;
     width: 100%;
   }
-
   .farm-text span {
     color: #26403e;
     font-family: "NunitoMeduim", sans-serif;
@@ -758,7 +701,6 @@ footer span {
     line-height: 24px;
     text-align: left;
   }
-
   .farm-text button {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 14px;
@@ -772,13 +714,11 @@ footer span {
     margin: auto;
     margin: 0;
   }
-
   .naget {
     margin-top: 0%;
     height: 200px;
     margin-left: -30%;
   }
-
   .tayeb-way h4 {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 36px !important;
@@ -786,7 +726,6 @@ footer span {
     text-align: center;
     color: #26403e;
   }
-
   .tayeb-way p {
     /* width: 5950 !important; */
     font-size: 16px;
@@ -795,30 +734,25 @@ footer span {
     letter-spacing: -0.01em;
     margin-left: 4%;
   }
-
   .tayeb-way span {
     font-size: 16px;
     font-weight: 800;
     line-height: 24px;
     letter-spacing: -0.01em;
   }
-
   .halal-nuggets {
     margin-top: -32%;
   }
-
   .halal {
     left: 50%;
     top: 58%;
     transform: translate(-50%);
     width: 100%;
   }
-
   .nationwide {
     margin-top: 120px;
     height: auto;
   }
-
   .cutting {
     /* position: relative;
     left: 50%;
@@ -827,14 +761,12 @@ footer span {
     z-index: 3; */
     top: -0.5%;
   }
-
   .cutting img {
     /* width: 210px !important; 
     height: 775px !important; */
     width: 410px !important;
     height: 375px !important;
   }
-
   .nationwide h2 {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 42px;
@@ -843,7 +775,6 @@ footer span {
     text-align: center;
     margin-top: 180px !important;
   }
-
   .nationwide p {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 16px;
@@ -855,16 +786,13 @@ footer span {
     margin-bottom: 31px;
     width: 100%;
   }
-
   .partners {
     flex-direction: column;
     gap: 64px;
   }
-
   .partners img {
     width: 50%;
   }
-
   .partner-btn button {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 14px;
@@ -878,28 +806,23 @@ footer span {
     opacity: 0px;
     margin-bottom: 57px;
   }
-
   .map {
     display: none;
   }
-
   .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 32px 20px;
   }
-
   .image-container img {
     margin: 10px 0;
     width: calc(100% - 40px);
     display: none !important;
   }
-
   .image-container img:nth-child(3) {
     display: block !important;
   }
-
   /* .tayeb-difference {
     margin-top: -70px;
   } */
@@ -907,13 +830,11 @@ footer span {
     font-size: 42px;
     line-height: 57.29px;
   }
-
   .tayeb-difference h4 {
     font-size: 20px;
     font-weight: 800;
     line-height: 27.28px;
   }
-
   .tayeb-difference p {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 16px;
@@ -923,14 +844,12 @@ footer span {
     margin: auto;
     padding-bottom: 64px;
   }
-
   /* footer .row{
     margin-top: -10px !important;
   } */
   footer {
     height: 738px;
   }
-
   footer p {
     font-family: Reddit Sans Condensed;
     font-size: 16px;
@@ -939,12 +858,10 @@ footer span {
     text-align: center;
     margin-bottom: 24px;
   }
-
   .social {
     margin-top: 48px !important;
     margin-bottom: 64px !important;
   }
-
   footer span {
     font-family: "NunitoMeduim", sans-serif;
     font-size: 10px;
@@ -954,15 +871,12 @@ footer span {
     text-align: center;
     margin-top: 35px;
   }
-
   .story {
     margin-left: 0% !important;
   }
-
   .footer-logo {
     margin-left: 0% !important;
   }
-
   /* .title {
     font-family: $font-light-nanito;
     font-size: 24px !important;
@@ -973,7 +887,6 @@ footer span {
     white-space: nowrap;
   } */
 }
-
 @media (min-width: 769px) and (max-width: 1100px) {
   .tayeb-difference p {
     width: 100%;
@@ -981,102 +894,96 @@ footer span {
     white-space: normal;
     /* padding-left: 10%; */
   }
-
   .tayeb-difference h4 {
     /* white-space: normal; */
     width: 100%;
   }
-
   header {
     padding-inline: 10px !important;
   }
-
   .logo-container {
     padding-right: 50px;
   }
-
   .navbar-expand-lg {
     flex-wrap: wrap !important;
   }
-
   .farm-img {
     margin-left: -60px;
     margin-right: 100px;
   }
-
   .farm-text h2 {
     margin-top: 10px;
   }
-
   .farm-text p {
     margin-top: 0px;
   }
-
   .tayeb-way p {
     margin-left: -70px;
     width: 530px !important;
   }
-
   .map {
     display: none !important;
   }
-
   .image-container img {
     margin: 10px 0;
     width: calc(33% - 10px);
     display: none !important;
   }
-
   .image-container img:nth-child(3),
   .image-container img:nth-child(2),
   .image-container img:nth-child(4) {
     display: block !important;
   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 1200px) {
-
+  .tayeb-difference p {
+    padding-bottom: 64px;
+  }
+  .nationwide {
+    margin-top: 200px;
+  }
+  .partner-btn button {
+    margin-bottom: 64px;
+  }
+  .navbar-nav {
+    margin-top: 72px !important;
+  }
+  .tayeb-container .navbar-nav {
+    margin-top: 0 !important;
+  }
   .navbar-toggler[aria-expanded=true] .close-img {
     display: inline-block;
   }
-
   .navbar-toggler[aria-expanded=true] .toggle-img {
     display: none;
   }
-
   .nav-item {
     padding: 0 !important;
     margin: 0 !important;
   }
-
   .navbar-toggler[aria-expanded=false] .close-img {
     display: none;
   }
-
   .navbar-toggler[aria-expanded=false] .toggle-img {
     display: inline-block;
   }
-
   .navbar-container {
     padding: 0 50px !important;
   }
-
   .tayeb-difference {
     padding: 0 50px;
   }
-
   .tayeb-difference .tayeb-flex {
     flex-wrap: wrap;
     gap: 0;
     justify-content: center;
   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 991px) {
-  .navbar-nav {
-    margin-top: 72px !important;
+  .navbar-container .navbar-collapse {
+    justify-content: end;
+    margin-top: 64px;
   }
-
   .navbar-icons {
     display: flex;
     margin-top: 80px;
@@ -1087,79 +994,91 @@ footer span {
     padding-inline: 0;
   }
 }
-
 @media (max-width: 768px) {
+  .partner-btn button {
+    font-family: "NunitoMeduim", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19.1px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    width: 353px;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 57px;
+  }
+  .nationwide {
+    margin-top: 64px;
+    height: auto;
+  }
+  .tayeb-difference p {
+    font-family: "NunitoMeduim", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin: auto;
+    padding-bottom: 64px;
+  }
+  .image-container {
+    padding: 20px 0 !important;
+  }
+  .image-container img {
+    padding: 0;
+    margin: 0;
+  }
+  .cutting img {
+    width: 300px !important;
+    height: 375px !important;
+  }
+  .partner-btn button {
+    width: 100% !important;
+  }
+  .farm-text button {
+    width: 100% !important;
+  }
   .navbar-container {
     padding: 0 20px !important;
   }
-
   button:focus:not(:focus-visible) {
     outline: none;
     box-shadow: none;
   }
-
   header {
     padding: 0 !important;
   }
-
   .navbar-toggler {
     padding: 0;
   }
-
   .nationwide .container-fluid {
     padding: 0 20px !important;
   }
-
   .tayeb-container {
     padding: 0;
   }
-
   .space-after-lg {
     display: none;
   }
-
   .small-space {
     display: block;
   }
 }
-
 @media (max-width: 480px) {
   .tayeb-container {
     padding: 0;
   }
 }
-
+@media screen and (max-width: 325px) {
+  .farm-section .farm-text h2 {
+    text-wrap: wrap;
+  }
+  .tayeb-way p {
+    text-wrap: wrap;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+}
 .wrapper {
   overflow-x: hidden;
-}
-
-@media screen and (min-width:1800px) {
-  .farm-text p {
-    max-width: 85%;
-  }
-
-  .hero {
-    margin-bottom: 19%;
-  }
-
-  .hero .translate-middle {
-    transform: translate(-50%, -38%) !important;
-  }
-
-  .farm-section {
-    padding: 0 15rem;
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    margin: 0 auto;
-    width: 80%;
-
-  }
-
-  .way-section {
-    margin-top: 8%;
-
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
